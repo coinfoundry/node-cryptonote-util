@@ -40,6 +40,11 @@
                         "-Wunused-variable",
                         "-Wmissing-braces",
                     ],
+                    "cflags_cc": [
+                        "-Wunused-function",
+                        "-Wunused-variable",
+                        "-Wmissing-braces",
+                    ],
                     'include_dirs': [
                         '/usr/local/include'],
                     'libraries': [
