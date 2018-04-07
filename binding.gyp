@@ -33,14 +33,14 @@
             "xcode_settings": {
               "OTHER_CFLAGS": ["-fexceptions", "-frtti"]
             }
-            'conditions': [
+            "conditions": [
                 ['OS=="openbsd" or OS=="freebsd"', {
                     'include_dirs': [
                         '/usr/local/include'],
                     'libraries': [
                         '-L/usr/local/lib']
                 }],
-            ],
+            ]
         }
     ]
 }
