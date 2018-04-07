@@ -32,7 +32,7 @@
             ],
             "xcode_settings": {
               "OTHER_CFLAGS": ["-fexceptions", "-frtti"]
-            }
+            },
             "conditions": [
                 ['OS=="openbsd" or OS=="freebsd"', {
                     'include_dirs': [
