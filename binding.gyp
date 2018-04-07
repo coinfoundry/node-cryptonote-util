@@ -35,7 +35,7 @@
             },
             "conditions": [
                 ['OS=="openbsd" or OS=="freebsd"', {
-                    "cflags_cc": [
+                    "cflags": [
                         "-Wunused-function",
                         "-Wunused-variable",
                         "-Wmissing-braces",
