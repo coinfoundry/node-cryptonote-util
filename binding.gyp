@@ -35,6 +35,11 @@
             },
             "conditions": [
                 ['OS=="openbsd" or OS=="freebsd"', {
+                    "cflags_cc": [
+                        "-Wunused-function",
+                        "-Wunused-variable",
+                        "-Wmissing-braces",
+                    ],
                     'include_dirs': [
                         '/usr/local/include'],
                     'libraries': [
