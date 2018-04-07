@@ -39,6 +39,7 @@
                         "-Wno-unused-function",
                         "-Wno-unused-variable",
                         "-Wno-missing-braces",
+                        "-Wno-unused-private-field",
                     ],
                     'include_dirs': [
                         '/usr/local/include'],
